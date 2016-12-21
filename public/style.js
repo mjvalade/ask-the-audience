@@ -36,6 +36,7 @@ export default StyleSheet.create({
         "marginLeft": 0
     },
     "status-text": {
+        "color": "#EE7738",
         "marginTop": 10,
         "marginRight": 0,
         "marginBottom": 10,
@@ -48,13 +49,13 @@ export default StyleSheet.create({
         "alignItems": "center"
     },
     "vote": {
-        "fontFamily": "'Anton', sans-serif",
-        "fontSize": 1.5,
         "textAlign": "center",
         "marginBottom": 20,
         "marginTop": 20,
         "color": "#2C3D4F",
-        "fontWeight": "700"
+        "fontSize": 2,
+        "fontWeight": "700",
+        "fontFamily": "'Anton', sans-serif"
     },
     "user-vote": {
         "textAlign": "center",
@@ -69,9 +70,14 @@ export default StyleSheet.create({
         "color": "#EE7738",
         "border": "none",
         "borderRadius": 5,
-        "height": 40,
-        "width": 40,
-        "fontSize": 20
+        "height": 60,
+        "width": 60,
+        "fontSize": 40
+    },
+    "button:hover": {
+        "backgroundColor": "#EE7738",
+        "border": "3px solid #2C3D4F",
+        "color": "#2C3D4F"
     },
     "results": {
         "marginBottom": 5,

@@ -29,6 +29,7 @@ h1 {
 }
 
 .status-text {
+  color: #EE7738;
   margin: 10px 0 10px 10px;
 }
 
@@ -37,11 +38,6 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.vote {
-  font-family: 'Anton', sans-serif;
-  font-size: 1.5em;
 }
 
 .vote,
@@ -54,14 +50,25 @@ h1 {
   font-weight: 700;
 }
 
+.vote {
+  font-family: 'Anton', sans-serif;
+  font-size: 2em;
+}
+
 button {
   background-color: #2C3D4F;
   color: #EE7738;
   border: none;
   border-radius: 5px;
-  height: 40px;
-  width: 40px;
-  font-size: 20px;
+  height: 60px;
+  width: 60px;
+  font-size: 40px;
+}
+
+button:hover {
+  background-color: #EE7738;
+  border: 3px solid #2C3D4F;
+  color: #2C3D4F;
 }
 
 .results {
