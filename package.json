@@ -1,14 +1,14 @@
 {
   "name": "ask-the-audience",
   "version": "1.0.0",
-  "description": "",
+  "description": "Websocket workshop",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "MaryJane Valade",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0",

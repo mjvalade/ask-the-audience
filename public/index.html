@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ask The Audience</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>ASK THE AUDIENCE</h1>
+    </header>
+
+    <section class="status">
+      <article class="status-text" id="status-message"></article>
+      <article class="status-text" id="connection-count"></article>
+    </section>
+
+    <div class="container">
+      <div id="choices">
+        <p class="vote">Cast your vote:</p>
+        <button>A</button>
+        <button>B</button>
+        <button>C</button>
+        <button>D</button>
+      </div>
+
+      <div id="user-vote"></div>
+      <ul>
+        <li class="results" id="A"></li>
+        <li class="results" id="B"></li>
+        <li class="results" id="C"></li>
+        <li class="results" id="D"></li>
+      </ul>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+  </body>
+</html>
