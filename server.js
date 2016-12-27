@@ -18,8 +18,10 @@ const server = http.createServer(app)
 
 const socketIo = require('socket.io');
 const io = socketIo(server);
+
 const votes = {};
 const vote = null;
+
 const countVotes = (votes) => {
   const voteCount = {
       A: 0,
@@ -33,7 +35,6 @@ const countVotes = (votes) => {
   }
 
   return voteCount;
-  console.log('voteCount, server', voteCount);
 };
 
 io.on('connection', (socket) => {

@@ -7,21 +7,23 @@ const {width, height, scale} = Dimensions.get("window"),
 
 export default StyleSheet.create({
     "body": {
-        "backgroundColor": "#F59D2A",
+        "backgroundColor": "gray",
         "fontFamily": "'Raleway', sans-serif"
     },
     "header": {
         "display": "flex",
         "backgroundColor": "#2C3D4F",
-        "height": 80,
+        "borderBottom": "10px solid white",
+        "height": 120,
         "textAlign": "center",
         "justifyContent": "center",
         "alignItems": "center"
     },
     "h1": {
         "display": "flex",
-        "color": "#EE7738",
-        "fontSize": 3,
+        "color": "turquoise",
+        "fontSize": 60,
+        "fontWeight": "bold",
         "fontFamily": "'Anton', sans-serif"
     },
     "status": {
@@ -36,11 +38,11 @@ export default StyleSheet.create({
         "marginLeft": 0
     },
     "status-text": {
-        "color": "#EE7738",
+        "color": "#2C3D4F",
         "marginTop": 10,
         "marginRight": 0,
         "marginBottom": 10,
-        "marginLeft": 10
+        "marginLeft": 20
     },
     "container": {
         "display": "flex",
@@ -52,7 +54,7 @@ export default StyleSheet.create({
         "textAlign": "center",
         "marginBottom": 20,
         "marginTop": 20,
-        "color": "#2C3D4F",
+        "color": "turquoise",
         "fontSize": 2,
         "fontWeight": "700",
         "fontFamily": "'Anton', sans-serif"
@@ -61,13 +63,13 @@ export default StyleSheet.create({
         "textAlign": "center",
         "marginBottom": 20,
         "marginTop": 20,
-        "color": "#2C3D4F",
+        "color": "turquoise",
         "fontSize": 1.5,
         "fontWeight": "700"
     },
     "button": {
         "backgroundColor": "#2C3D4F",
-        "color": "#EE7738",
+        "color": "gray",
         "border": "none",
         "borderRadius": 5,
         "height": 60,
@@ -75,7 +77,7 @@ export default StyleSheet.create({
         "fontSize": 40
     },
     "button:hover": {
-        "backgroundColor": "#EE7738",
+        "backgroundColor": "turquoise",
         "border": "3px solid #2C3D4F",
         "color": "#2C3D4F"
     },

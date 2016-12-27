@@ -1,12 +1,13 @@
 body {
-  background-color: #F59D2A;
+  background-color: gray;
   font-family: 'Raleway', sans-serif;
 }
 
 header {
   display: flex;
   background-color: #2C3D4F;
-  height: 80px;
+  border-bottom: 10px solid white;
+  height: 120px;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -14,9 +15,11 @@ header {
 
 h1 {
   display: flex;
-  color: #EE7738;
-  font-size: 3em;
+  color: turquoise;
+  font-size: 60px;
+  font-weight: bold;
   font-family: 'Anton', sans-serif;
+  /*pick different header font*/
 }
 
 .status {
@@ -29,8 +32,8 @@ h1 {
 }
 
 .status-text {
-  color: #EE7738;
-  margin: 10px 0 10px 10px;
+  color: #2C3D4F;
+  margin: 10px 0 10px 20px;
 }
 
 .container {
@@ -45,7 +48,7 @@ h1 {
   text-align: center;
   margin-bottom: 20px;
   margin-top: 20px;
-  color: #2C3D4F;
+  color: turquoise;
   font-size: 1.5em;
   font-weight: 700;
 }
@@ -57,7 +60,7 @@ h1 {
 
 button {
   background-color: #2C3D4F;
-  color: #EE7738;
+  color: gray;
   border: none;
   border-radius: 5px;
   height: 60px;
@@ -66,7 +69,7 @@ button {
 }
 
 button:hover {
-  background-color: #EE7738;
+  background-color: turquoise;
   border: 3px solid #2C3D4F;
   color: #2C3D4F;
 }

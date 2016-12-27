@@ -30,12 +30,10 @@ socket.on('voteCount', (votes) => {
   countVotesB.innerText = 'Votes: B: ' + votes.B;
   countVotesC.innerText = 'Votes: C: ' + votes.C;
   countVotesD.innerText = 'Votes: D: ' + votes.D;
-  console.log('votes, client', votes);
 });
 
 const userVote = document.getElementById('user-vote');
 
 socket.on('userVote', (theVote) => {
-  console.log('theVote', theVote);
   userVote.innerText = 'Your vote: ' + theVote;
 });
