@@ -20,16 +20,16 @@ for (let i = 0; i < buttons.length; i++) {
   });
 }
 
-const countVotesA = document.getElementById('A');
-const countVotesB = document.getElementById('B');
-const countVotesC = document.getElementById('C');
-const countVotesD = document.getElementById('D');
+const countA = document.getElementById('A');
+const countB = document.getElementById('B');
+const countC = document.getElementById('C');
+const countD = document.getElementById('D');
 
 socket.on('voteCount', (votes) => {
-  countVotesA.innerText = 'Votes: A: ' + votes.A;
-  countVotesB.innerText = 'Votes: B: ' + votes.B;
-  countVotesC.innerText = 'Votes: C: ' + votes.C;
-  countVotesD.innerText = 'Votes: D: ' + votes.D;
+  countA.innerText = 'Votes: A: ' + votes.A;
+  countB.innerText = 'Votes: B: ' + votes.B;
+  countC.innerText = 'Votes: C: ' + votes.C;
+  countD.innerText = 'Votes: D: ' + votes.D;
 });
 
 const userVote = document.getElementById('user-vote');
